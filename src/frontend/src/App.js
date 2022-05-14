@@ -7,10 +7,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Routes>
-          <Route path = "/teams/:teamName/matches/:year" element = {<MatchPage />}/>
-          <Route path = "/teams/:teamName" element = {<TeamPage />}/>
-        </Routes>
+          <Routes>
+            <Route path = "/teams/:teamName/matches/:year" element = {<MatchPage />}/>
+            <Route path = "/teams/:teamName" element = {<TeamPage />}/>
+          </Routes>
       </Router>
     </div>
   );

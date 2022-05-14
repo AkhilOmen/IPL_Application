@@ -7,7 +7,6 @@ export const MatchDetailsCard = ({match, teamName}) => {
   const otherTeamRoute = `/teams/${otherTeam}`;
   return (
     <div className="MatchDetailsCard">
-        <p>-----------------------------------------------------------------</p>
         <h2>Latest Match</h2>
         <h1> vs <Link to = {otherTeamRoute}>{otherTeam}</Link> </h1>
         <h2> on {match.date}</h2>
