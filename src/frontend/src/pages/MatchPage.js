@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { MatchDetailsCard } from '../components/MatchDetailsCard';
-
+import './MatchPage.scss';
 
 export const MatchPage = () => {
 

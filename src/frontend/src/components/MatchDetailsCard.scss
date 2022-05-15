@@ -1,0 +1,23 @@
+.MatchDetailsCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    
+    .Otherteam-name{
+        margin-bottom: 20px;
+    }
+
+    .match-date, .match-venue, .match-result{
+        margin-bottom: 20px;
+    }
+
+    .Additionaldetails{
+        text-align: right;
+        & > p{
+            margin-bottom: 20px;
+        }
+    }
+
+}
