@@ -22,7 +22,7 @@ export const HomePage = () => {
             <h1 className='project-name'> My IPL Project </h1>
             <div>
                 <h1 className='select-team'>Select Team</h1>
-                { teams.map(team => <TeamTile teamName = {team.teamName}/>)}
+                { teams.map(team => <TeamTile key={team.id} teamName = {team.teamName}/>)}
             </div>
         </div>
     );

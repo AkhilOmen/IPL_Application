@@ -20,7 +20,7 @@ export const MatchPage = () => {
         },[teamName, year]
     );
 
-    if( matches.length == 0 ){
+    if( matches.length === 0 ){
         return ( <div className="MatchPage">
                 <div className='year-selector'>
                     <h3>Select Year</h3>
@@ -41,7 +41,7 @@ export const MatchPage = () => {
             </div>
             <div>
                 <h1 className='teamName'>{teamName} matches in the {year}</h1>
-                {matches.map(match => <MatchDetailsCard match = {match} teamName = {teamName} />)}
+                {matches.map(match => <MatchDetailsCard key={match.id} match = {match} teamName = {teamName} />)}
             </div>
         </div>
     );
