@@ -2,11 +2,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 30px;
-    font-size: 30px;
     align-items: center;
     justify-items: center;
-
+    
     .project-name{
         font-size: 70px;
+    }
+
+    & div{
+        font-size: 30px;
+        .select-team{
+            font-size: 25px;
+        }
     }
 }
